@@ -1,0 +1,6 @@
+#Receber a quantidade de horas do usuário
+horas = float(input("Digite a quantidade de horas: "))
+#Converter a quantidade de horas em segundos
+segundos = horas * 3600
+#Imprimir a quantidade de segundos
+print("A quantidade de segundos é", segundos)
